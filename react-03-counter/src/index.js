@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MiPrimeraApp from './MiPrimeraApp';
+import CounterApp from './CounterApp';
 import './index.css';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<MiPrimeraApp/>, divRoot);
+ReactDOM.render(<CounterApp valor={ 11 } />, divRoot);

@@ -5,3 +5,9 @@ html, body {
     background-color:darkslategray;
     font-size: 1.0rem;
 }
+
+button {
+    padding: 20px;
+    font-size: 1.0rem;
+
+}

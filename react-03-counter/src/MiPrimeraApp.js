@@ -1,14 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const MiPrimeraApp = () => {
+const MiPrimeraApp = ({saludo, subtitulo}) => {
 
-    const html = 
+    return (
         <>
-            <h1>Hola Mundo!</h1>
-            <p>Viva España</p>
-        </>;
+            <h1>{ saludo }</h1>
+            <p>{ subtitulo }</p>
+        </>);
 
-    return html;
 }
+
+MiPrimeraApp.defaultProps = {
+    subtitulo : 'rueda fortuna'
+}  
 
 export default MiPrimeraApp;
